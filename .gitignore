@@ -1,0 +1,17 @@
+# Dependencies (npm install recreates them)
+node_modules/
+
+# Build output (npm run build recreates it)
+dist/
+
+# Logs and editor/OS files
+*.log
+npm-debug.log*
+.vite/
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# .env is committed on purpose: it holds only the backend address (see README).
